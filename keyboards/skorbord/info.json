@@ -20,8 +20,9 @@
                 "rows": [ "C6", "D7", "E6", "B4", "B5"]
             }
         },
+        "soft_serial_pin": "D2",
         "transport": {
-            "protocol": "i2c"
+            "protocol": "serial"
         }
     },
     "matrix_pins": {
@@ -34,6 +35,14 @@
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
+    },
+    "encoder":{
+        "rotary":[
+            {   "pin_a": "F4",
+                "pin_b": "F5",
+                "resolution": 4
+            }
+        ]
     },
     "layouts": {
         "LAYOUT_split_5x6": {

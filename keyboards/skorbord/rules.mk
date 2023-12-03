@@ -1,1 +1,4 @@
-# This file intentionally left blank
+# SETTINGS
+
+ENCODER_ENABLE = yes
+OLED_ENABLE = yes
