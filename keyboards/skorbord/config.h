@@ -1,6 +1,10 @@
 // Copyright 2023 Per (@defsax)
 // SPDX-License-Identifier: GPL-2.0-or-later
 
+#ifdef OLED_ENABLE
+#define OLED_DISPLAY_128X64
+#endif
+
 #pragma once
 
 /*
@@ -20,6 +24,9 @@
 // #define NO_ACTION_ONESHOT
 
 #define MASTER_LEFT
+
+// #define OLED_FONT_H "keyboards/skorbord/lib/glcdfont.c"
+
 // #define USE_I2C
 // #define DIODE_DIRECTION COL2ROW
 
